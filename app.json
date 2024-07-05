@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.delvin.dylan.cocktailapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f7ee4d9-35f8-452e-bbcc-ab84238f67e9"
+      }
+    },
+    "owner": "delvin.dylan"
   }
 }

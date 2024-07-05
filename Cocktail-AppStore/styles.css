@@ -32,7 +32,7 @@ header {
 
 main {
     padding: 20px;
-    max-width: 600px;
+    max-width: 800px; /* Increased max-width */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ main {
 }
 
 .app-screenshot {
-    width: 200px;
+    width: 300px; /* Increased width */
     height: auto;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -79,6 +79,26 @@ h2 {
 
 .install-btn:hover {
     background-color: #6a006a; /* Darker purple color */
+}
+
+.preview-images {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preview-images .images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.preview-img {
+    width: 200px; /* Increased width */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .ratings-reviews {
